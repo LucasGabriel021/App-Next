@@ -36,7 +36,7 @@ export default async function Page() {
 
   return (
     <>
-      <div>Tela do Administrador</div>
+      <div>Tela de usuários</div>
       <h2>Usuários cadastrados no sistema: </h2>
       <ul>
         {usuarios.map((item) => {
